@@ -1,5 +1,5 @@
 %define upstream_name    Wx-Perl-ProcessStream
-%define upstream_version 0.17
+%define upstream_version 0.18
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
