@@ -26,7 +26,8 @@ possible via STDIN.
 Do not use this module simply to collect the output of another process. For
 that, it is much simpler to do:
 
-    my ($status, $output) = Wx::ExecuteStdout( 'perl -e"print qq($_\n) for(@INC);"' );
+    my ($status, $output) = Wx::ExecuteStdout( 'perl -e"print qq($_\n)
+for(@INC);"' );
 
 %prep
 %setup -q -n %{upstream_name}-%{upstream_version}
