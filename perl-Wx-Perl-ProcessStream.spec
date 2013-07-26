@@ -1,15 +1,15 @@
 %define upstream_name    Wx-Perl-ProcessStream
-%define upstream_version 0.30
+%define upstream_version 0.32
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%perl_convert_version 0.32
+Release:	1
 
 Summary:	Use std handles of process via wx events
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Wx/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Wx/Wx-Perl-ProcessStream-0.32.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Archive::Tar)
@@ -112,5 +112,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Aug 30 2008 Nicolas Lécureuil <nlecureuil@mandriva.com> 0.11-1mdv2009.0
 + Revision: 277582
 - import perl-Wx-Perl-ProcessStream
+
 
 
