@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.32
-Release:	1
+Release:	2
 
 Summary:	Use std handles of process via wx events
 License:	GPL+ or Artistic
