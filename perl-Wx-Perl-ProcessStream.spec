@@ -8,7 +8,7 @@ Release:	4
 Summary:	Use std handles of process via wx events
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Wx/Wx-Perl-ProcessStream-0.32.tar.gz
 
 BuildRequires:	perl-devel
